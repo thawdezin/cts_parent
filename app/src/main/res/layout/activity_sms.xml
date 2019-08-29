@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFFD4"
+    tools:context="com.tdz.ctsparent.SMS">
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textSize="20dp"
+            android:textColor="#104E8B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Child's SMS is here!" />
+
+        <TextView
+            android:id="@+id/tvSMS"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnGoToFour"
+            android:textSize="20dp"
+            android:textColor="#104E8B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="goToFour"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

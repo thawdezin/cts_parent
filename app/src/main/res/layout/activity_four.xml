@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFFD4"
+
+    tools:context="com.tdz.ctsparent.FourActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/button2"
+            android:textColor="#104E8B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Log"
+            android:onClick="viewCallLog"/>
+
+        <Button
+            android:textColor="#104E8B"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:onClick="viewSMS"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:textColor="#104E8B"
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:onClick="viewContact"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:textColor="#104E8B"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:onClick="viewLocation"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:textColor="#104E8B"
+            android:layout_width="match_parent"
+            android:id="@+id/button9"
+            android:layout_height="wrap_content"
+            android:text="Back to Main"
+            android:onClick="backToMain"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

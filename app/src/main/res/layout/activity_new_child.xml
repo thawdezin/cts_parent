@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFFD4"
+    tools:context="com.tdz.ctsparent.NewChildActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#104E8B"
+            android:textSize="20dp"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Your Child" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:textColor="#104E8B"
+            android:id="@+id/etCname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Name"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:textColor="#104E8B"
+            android:id="@+id/etCmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:hint="email@mail.com"/>
+
+        <EditText
+            android:textColor="#104E8B"
+            android:layout_marginTop="10dp"
+            android:id="@+id/etCpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text=""
+            android:hint="Password"/>
+
+        <Button
+            android:textColor="#104E8B"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnAddNewChild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:textColor="#104E8B"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Main"
+            android:onClick="goToMain"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

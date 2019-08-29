@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7FFFD4"
+    tools:context="com.tdz.ctsparent.Call_Log">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#104E8B"
+            android:textSize="20dp"
+            android:text="Your Child's call log is here!" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:id="@+id/tvCallLog"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnGoToFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="goToFour"
+            android:background="#00CED1"
+            android:textColor="#104E8B"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
