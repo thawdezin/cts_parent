@@ -1,28 +1,8 @@
 package com.tdz.ctsparent;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.View;
-import android.widget.AnalogClock;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TabHost;
-import android.widget.Toast;
-
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Gravity;
-import android.view.Menu;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.AnalogClock;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TabHost;
-import android.widget.TabHost.OnTabChangeListener;
-import android.widget.Toast;
 
 public class TrackActivity extends AppCompatActivity {
 
